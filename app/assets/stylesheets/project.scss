@@ -1,3 +1,62 @@
-// Place all the styles related to the Project controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+.projects {
+  font-family: "Fakt Soft";
+  margin-top: 10px;
+
+  .card-row {
+    margin-top: 20px;
+  }
+
+  .card {
+    display: block;
+    color: #283c46;
+    background-color: #fff;
+    box-shadow: 0 1px 2px #aa9c84;
+    border-radius: 6px;
+    padding: 1.5rem;
+    height: 100%;
+
+    h2 {
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    p {
+      font-size: 13px;
+    }
+  }
+
+  .header {
+    color: rgb(135, 116, 87);
+    text-align: center;
+    font-family: "Fakt Soft";
+    font-size: 19.89px;
+  }
+
+  .desc {
+    color: rgb(135, 116, 87);
+    text-align: center;
+    font-size: 14px;
+    font-family: "Fakt Soft";
+  }
+
+  .right-one {
+    float: right;
+  }
+
+  .button {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    font-family: "Fakt Soft";
+    font-size: 13px;
+    font-weight: bold;
+    &:hover {
+      background-color: white;
+      color: black;
+    }
+
+    .plus {
+      color: green;
+    }
+  }
+}

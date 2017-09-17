@@ -1,0 +1,23 @@
+<div class="d-flex flex-row justify-content-between navbar">
+  <div class="p-2">
+    <%=image_tag 'navbar-icon.png' %>
+    <i class="fa fa-caret-down" aria-hidden="true"></i>
+  </div>
+  <div class="p-2">
+    <%= link_to '#' do %>
+      <i class="fa fa-beer" aria-hidden="true"></i> Home
+    <% end %>
+    <%= link_to 'Latest activity', '#' %>
+    <%= link_to 'Pings', '#', class: 'left-border' %>
+    <%= link_to 'Hey!', '#' %>
+    <%= link_to 'Campfires', '#' %>
+    <%= link_to 'Reports', '#', class: 'left-border' %>
+    <%= link_to '#' do %>
+      <i class="fa fa-search" aria-hidden="true"></i> Find...
+    <% end %>
+  </div>
+  <div class="p-2">
+    <div class="inline"><i class="fa fa-caret-down" aria-hidden="true"></i></div>
+    <div class='circle inline'>KM</div>
+  </div>
+</div>
